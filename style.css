@@ -3,6 +3,7 @@
  /* grid - custom 'bootstrap' 
     Dùng một grid tự tạo gồm 4 + 3 x 5 = 19 cột
     100 / 19 = 5.263
+    100 / 16 = 6.25
     mỗi gap là 1 cột
     mỗi bàn là 3 cột -> 1 ghế chiếm 1.5 cộts
 */
@@ -12,18 +13,19 @@ body {
 }
 
 .custom-col-3 {
-/*    15.7894736842*/
+/* 5.263 * 3 =  15.7894736842*/
+/* 6.25 * 3 =  18.75*/
     position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    -ms-flex: 0 0 15.78947%;
-    flex: 0 0 15.78947%;
-    max-width: 15.78947%;
+    -ms-flex: 0 0 18.75%;
+    flex: 0 0 18.75%;
+    max-width: 18.75%;
 }
 .custom-offset-1 {
 /*    5.2631*/
-    margin-left: 5.2631%;
+    margin-left: 6.25%;
 }
 /*****************/
 
